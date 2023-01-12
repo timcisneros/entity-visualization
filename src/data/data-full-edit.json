@@ -81,6 +81,36 @@
     },
     {
         "Chart": "WFF Holdings Tree",
+        "Parent": "WFF Holding Co. One, LLC",
+        "Subsidiary": "Cornwall Realty, LLC",
+        "Ownership": "14.50%",
+        "Description": "",
+        "Distributions": "",
+        "Equity": "",
+        "Docusign_Folder_Link": "https://na11.springcm.com/atlas/Link/Folder/17291/f6f4559a-dfb8-eb11-9c3d-d89d6716196d?aid=17291"
+    },
+    {
+        "Chart": "WFF Holdings Tree",
+        "Parent": "Cornwall Realty, LLC",
+        "Subsidiary": "901 Cornwall Realty, LLC",
+        "Ownership": "40.00%",
+        "Description": "",
+        "Distributions": "",
+        "Equity": "",
+        "Docusign_Folder_Link": "https://na11.springcm.com/atlas/Link/Folder/17291/d83cd8d1-c792-ed11-b80a-9440c9ae2c0d?aid=17291"
+    },
+    {
+        "Chart": "WFF Holdings Tree",
+        "Parent": "901 Cornwall Realty, LLC",
+        "Subsidiary": "901 Cornwall Realty, LLC",
+        "Ownership": "N/A",
+        "Description": "N/A",
+        "Distributions": "N/A",
+        "Equity": "N/A",
+        "Docusign_Folder_Link": "https://na11.springcm.com/atlas/Link/Folder/17291/39ab9fb3-c792-ed11-b80a-9440c9ae2c0d?aid=17291"
+    },
+    {
+        "Chart": "WFF Holdings Tree",
         "Parent": "WAY Family Investments",
         "Subsidiary": "See separate org chart",
         "Ownership": "100%",
