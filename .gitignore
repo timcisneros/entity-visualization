@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# data files
+data-full-edit.json
+data-full-nested.json
+data-full.json
