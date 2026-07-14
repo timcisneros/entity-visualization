@@ -38,3 +38,9 @@ test('repository includes safe configuration and publication guidance', async ()
     assert.match(readme, /anonymized demonstration data/i);
     assert.match(notice, /no license is granted/i);
 });
+
+test('Vite preserves the browser global expected by legacy dependencies', async () => {
+    const config = await readFile(new URL('../vite.config.js', import.meta.url), 'utf8');
+
+    assert.match(config, /global:\s*['"]globalThis['"]/);
+});

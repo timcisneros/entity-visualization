@@ -2,6 +2,12 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+    // Legacy browser dependencies still reference Node's `global`. Keep the
+    // compatibility alias at the bundler boundary instead of leaking a shim
+    // into application components.
+    define: {
+        global: 'globalThis',
+    },
     plugins: [react({ include: /\.[jt]sx?$/ })],
     esbuild: {
         loader: 'jsx',
